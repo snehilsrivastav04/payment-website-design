@@ -1,4 +1,4 @@
-# **App Name**: FinLanding
+# **App Name**: Payme
 
 ## Core Features:
 
