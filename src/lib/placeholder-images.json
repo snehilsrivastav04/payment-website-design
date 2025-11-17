@@ -1,0 +1,394 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-dashboard",
+      "description": "A modern fintech dashboard illustration",
+      "imageUrl": "https://images.unsplash.com/photo-1748439435495-722cc1728b7e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmaW50ZWNoJTIwZGFzaGJvYXJkfGVufDB8fHx8MTc2MzE5NTUxN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fintech dashboard"
+    },
+    {
+      "id": "industry-ecommerce",
+      "description": "Image for e-commerce industry solutions",
+      "imageUrl": "https://images.unsplash.com/photo-1665686377065-08ba896d16fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxvbmxpbmUlMjBzaG9wcGluZ3xlbnwwfHx8fDE3NjMxOTA5NzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "online shopping"
+    },
+    {
+      "id": "industry-education",
+      "description": "Image for education industry solutions",
+      "imageUrl": "https://images.unsplash.com/photo-1550376026-33cbee34f79e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxlLWxlYXJuaW5nfGVufDB8fHx8MTc2MzExMzQ2Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "e-learning"
+    },
+    {
+      "id": "industry-saas",
+      "description": "Image for SaaS industry solutions",
+      "imageUrl": "https://images.unsplash.com/photo-1634836023845-eddbfe9937da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzb2Z0d2FyZSUyMGRhc2hib2FyZHxlbnwwfHx8fDE3NjMwOTE3NjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "software dashboard"
+    },
+    {
+      "id": "industry-bfsi",
+      "description": "Image for BFSI industry solutions",
+      "imageUrl": "https://images.unsplash.com/photo-1745509267699-1b1db256601e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxmaW5hbmNlJTIwY2hhcnR8ZW58MHx8fHwxNzYzMDkwNzIwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "finance chart"
+    },
+    {
+      "id": "industry-freelancers",
+      "description": "Image for freelancers industry solutions",
+      "imageUrl": "https://images.unsplash.com/photo-1543269865-f576bdee5d1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwZXJzb24lMjB3b3JraW5nfGVufDB8fHx8MTc2MzE1OTYzOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person working"
+    },
+    {
+      "id": "testimonial-1",
+      "description": "Founder photo for testimonial 1",
+      "imageUrl": "https://images.unsplash.com/photo-1557053910-d9eadeed1c58?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2MzEwMjI2Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "testimonial-2",
+      "description": "Founder photo for testimonial 2",
+      "imageUrl": "https://images.unsplash.com/photo-1623184663110-89ba5b565eb6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxtYW4lMjBzbWlsaW5nfGVufDB8fHx8MTc2MzE1OTMzNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man smiling"
+    },
+    {
+      "id": "testimonial-3",
+      "description": "Founder photo for testimonial 3",
+      "imageUrl": "https://images.unsplash.com/photo-1716237442776-71a0895d94f7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8d29tYW4lMjBwb3J0cmFpdCUyMHByb2Zlc3Npb25hbHxlbnwwfHx8fDE3NjMxOTk2NDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman portrait professional"
+    },
+    {
+      "id": "testimonial-4",
+      "description": "Founder photo for testimonial 4",
+      "imageUrl": "https://images.unsplash.com/photo-1719087358997-12957d0859e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8d29tYW4lMjBzbWlsaW5nfGVufDB8fHx8MTc2MzE3NTQwMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman smiling"
+    },
+    {
+      "id": "testimonial-5",
+      "description": "Founder photo for testimonial 5",
+      "imageUrl": "https://images.unsplash.com/photo-1605298046196-e205d0d699d7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtYW4lMjBwb3J0cmFpdCUyMHByb2Zlc3Npb25hbHxlbnwwfHx8fDE3NjMxNTEwNDN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man portrait professional"
+    },
+    {
+      "id": "testimonial-6",
+      "description": "Founder photo for testimonial 6",
+      "imageUrl": "https://images.unsplash.com/photo-1522556189639-b150ed9c4330?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjMxOTUzOTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man portrait"
+    },
+    {
+      "id": "bp-1",
+      "description": "Person working on a laptop",
+      "imageUrl": "https://images.unsplash.com/photo-1601933552406-c6ea0739a098?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cGVyc29uJTIwbGFwdG9wfGVufDB8fHx8MTc2MzE4MTkwM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person laptop"
+    },
+    {
+      "id": "bp-2",
+      "description": "Team collaborating at a whiteboard",
+      "imageUrl": "https://images.unsplash.com/photo-1531545514256-b1400bc00f31?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx0ZWFtJTIwY29sbGFib3JhdGlvbnxlbnwwfHx8fDE3NjMxODU5MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "team collaboration"
+    },
+    {
+      "id": "bp-3",
+      "description": "Woman smiling",
+      "imageUrl": "https://images.unsplash.com/photo-1525134479668-1bee5c7c6845?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx3b21hbiUyMHNtaWxpbmd8ZW58MHx8fHwxNzYzMTc1NDAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman smiling"
+    },
+    {
+      "id": "bp-4",
+      "description": "Person holding a credit card",
+      "imageUrl": "https://images.unsplash.com/photo-1578670812003-60745e2c2ea9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjcmVkaXQlMjBjYXJkfGVufDB8fHx8MTc2MzEzNDk3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "credit card"
+    },
+    {
+      "id": "bp-5",
+      "description": "Group of happy employees",
+      "imageUrl": "https://images.unsplash.com/photo-1590698933947-a202b069a861?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxoYXBweSUyMGVtcGxveWVlc3xlbnwwfHx8fDE3NjMxNDg4NTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "happy employees"
+    },
+    {
+      "id": "bp-6",
+      "description": "Person analyzing charts on a screen",
+      "imageUrl": "https://images.unsplash.com/photo-1588600878108-578307a3cc9d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxkYXRhJTIwYW5hbHlzaXN8ZW58MHx8fHwxNzYzMTU5NTU5fDA&ixlibrb-4.1.0&q=80&w=1080",
+      "imageHint": "data analysis"
+    },
+    {
+      "id": "enterprise-bmw",
+      "description": "A shiny new BMW car in a showroom",
+      "imageUrl": "https://images.unsplash.com/photo-1535448580089-c7f9490c78b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxsdXh1cnklMjBjYXJ8ZW58MHx8fHwxNzYzMTQzMDU4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "luxury car"
+    },
+    {
+      "id": "enterprise-amazon",
+      "description": "Amazon fulfillment center",
+      "imageUrl": "https://images.unsplash.com/photo-1622127739239-1905bbaa21b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3YXJlaG91c2UlMjB3b3JrZXJzfGVufDB8fHx8MTc2MzIxMzU4NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "warehouse workers"
+    },
+    {
+      "id": "enterprise-maersk",
+      "description": "Maersk container ship",
+      "imageUrl": "https://images.unsplash.com/photo-1594110336951-5bc8c12d6b27?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y29udGFpbmVyJTIwc2hpcHxlbnwwfHx8fDE3NjMxOTIzMTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "container ship"
+    },
+    {
+      "id": "enterprise-twilio",
+      "description": "Developer coding on a laptop",
+      "imageUrl": "https://images.unsplash.com/photo-1654355229863-95a8a7a779dd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwZXJzb24lMjBjb2Rpbmd8ZW58MHx8fHwxNzYzMTg0NDYyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person coding"
+    },
+    {
+      "id": "product-globe",
+      "description": "A digital-style globe with connection lines",
+      "imageUrl": "https://images.unsplash.com/photo-1656189505583-548c35fbc86d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxkaWdpdGFsJTIwZ2xvYmV8ZW58MHx8fHwxNzYzMjE0NzYzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "digital globe"
+    },
+    {
+      "id": "hero-ghazal",
+      "description": "Portrait of Ghazal Alagh",
+      "imageUrl": "https://images.unsplash.com/photo-1546961329-78bef0414d7c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2MzIxODk3Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "hero-mamaearth",
+      "description": "Mamaearth product",
+      "imageUrl": "https://images.unsplash.com/photo-1597931752949-98c74b5b159f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxiZWF1dHklMjBwcm9kdWN0fGVufDB8fHx8MTc2MzE0ODY4M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "beauty product"
+    },
+    {
+      "id": "hero-ghazal-sign",
+      "description": "Signature of Ghazal Alagh",
+      "imageUrl": "https://images.unsplash.com/photo-1627518788331-b3b7fdaa382f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzaWduYXR1cmV8ZW58MHx8fHwxNzYzMTQ2NzAzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "signature"
+    },
+    {
+      "id": "hero-aman",
+      "description": "Portrait of Aman Gupta",
+      "imageUrl": "https://images.unsplash.com/photo-1560250097-0b93528c311a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjMxOTUzOTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man portrait"
+    },
+    {
+      "id": "hero-boat",
+      "description": "boAt product",
+      "imageUrl": "https://images.unsplash.com/photo-1604214684476-2ecbacbb477e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZWFyYnVkc3xlbnwwfHx8fDE3NjMxNDQxNjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "earbuds"
+    },
+    {
+      "id": "hero-aman-sign",
+      "description": "Signature of Aman Gupta",
+      "imageUrl": "https://images.unsplash.com/photo-1589330694653-ded6df03f754?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzaWduYXR1cmV8ZW58MHx8fHwxNzYzMTQ2NzAzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "signature"
+    },
+    {
+      "id": "hero-rahul",
+      "description": "Portrait of Rahul Sharma",
+      "imageUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjMxOTUzOTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man portrait"
+    },
+    {
+      "id": "hero-noise",
+      "description": "Noise product",
+      "imageUrl": "https://images.unsplash.com/photo-1660844817855-3ecc7ef21f12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzbWFydHdhdGNofGVufDB8fHx8MTc2MzIwNzEwOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "smartwatch"
+    },
+    {
+      "id": "hero-rahul-sign",
+      "description": "Signature of Rahul Sharma",
+      "imageUrl": "https://images.unsplash.com/photo-1724404853530-a19ff2ed3c4b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzaWduYXR1cmV8ZW58MHx8fHwxNzYzMTQ2NzAzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "signature"
+    },
+    {
+      "id": "hero-falguni",
+      "description": "Portrait of Falguni Nayar",
+      "imageUrl": "https://images.unsplash.com/photo-1610655507808-a59293f4e332?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2MzIxODk3Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "hero-nykaa",
+      "description": "Nykaa product",
+      "imageUrl": "https://images.unsplash.com/photo-1631214499500-2e34edcaccfe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxsaXBzdGlja3xlbnwwfHx8fDE3NjMxNTQwMDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "lipstick"
+    },
+    {
+      "id": "hero-falguni-sign",
+      "description": "Signature of Falguni Nayar",
+      "imageUrl": "https://images.unsplash.com/photo-1603796846097-bee99e4a601f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzaWduYXR1cmV8ZW58MHx8fHwxNzYzMTQ2NzAzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "signature"
+    },
+    {
+      "id": "stacked-gateway",
+      "imageUrl": "https://images.unsplash.com/photo-1742837581522-111d23b69a04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3ZWJzaXRlJTIwY2hlY2tvdXR8ZW58MHx8fHwxNzYzMzE4ODg1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "website checkout",
+      "description": "Abstract image of a website checkout page"
+    },
+    {
+      "id": "stacked-pay-button",
+      "imageUrl": "https://images.unsplash.com/photo-1620359739132-dc98406fd7e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjdGElMjBidXR0b258ZW58MHx8fHwxNzYzMzE4ODg1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cta button",
+      "description": "Close up of a call-to-action button"
+    },
+    {
+      "id": "stacked-payment-links",
+      "imageUrl": "https://images.unsplash.com/photo-1759096516326-b5e3dfeb77b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c2hhcmVkJTIwbGlua3xlbnwwfHx8fDE3NjMzMTg4ODV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "shared link",
+      "description": "Illustration of a shared link on a phone screen"
+    },
+    {
+      "id": "stacked-pos",
+      "imageUrl": "https://images.unsplash.com/photo-1556741568-055d848f8bfd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwb3MlMjB0ZXJtaW5hbHxlbnwwfHx8fDE3NjMyNjczNDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pos terminal",
+      "description": "A point-of-sale terminal in a retail store"
+    },
+    {
+      "id": "stacked-payment-pages",
+      "imageUrl": "https://images.unsplash.com/photo-1487014679447-9f8336841d58?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxvbmxpbmUlMjBzdG9yZXxlbnwwfHx8fDE3NjMyMzY3NzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "online store",
+      "description": "Screenshot of an online store interface"
+    },
+    {
+      "id": "stacked-plugins",
+      "imageUrl": "https://images.unsplash.com/photo-1716840646010-e5622fd6683d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzb2Z0d2FyZSUyMGxvZ29zfGVufDB8fHx8MTc2MzMxODg4NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "software logos",
+      "description": "A collection of software logos"
+    },
+    {
+      "id": "stacked-social-media",
+      "imageUrl": "https://images.unsplash.com/photo-1669311540088-8d44f4ab2cd7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzb2NpYWwlMjBtZWRpYSUyMGFwcHxlbnwwfHx8fDE3NjMzMTg4ODV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "social media app",
+      "description": "A social media application interface on a phone"
+    },
+    {
+      "id": "stacked-cross-border",
+      "imageUrl": "https://images.unsplash.com/photo-1713098965471-d324f294a71d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx3b3JsZCUyMG1hcHxlbnwwfHx8fDE3NjMyODMzNzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "world map",
+      "description": "A digital world map with connection lines"
+    },
+    {
+      "id": "stacked-bulk-payouts",
+      "imageUrl": "https://images.unsplash.com/photo-1610986603166-f78428624e76?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxhcGklMjBjb2RlfGVufDB8fHx8MTc2MzMxODg4NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "api code",
+      "description": "Lines of API code on a dark screen"
+    },
+    {
+      "id": "stacked-source-pay",
+      "imageUrl": "https://images.unsplash.com/photo-1730094915697-bd504b857145?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx2ZW5kb3IlMjBwYXltZW50fGVufDB8fHx8MTc2MzMxODg4NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "vendor payment",
+      "description": "An invoice for a vendor payment"
+    },
+    {
+      "id": "stacked-payout-links",
+      "imageUrl": "https://images.unsplash.com/photo-1758524944006-ba8116008496?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwYXlvdXQlMjBsaW5rfGVufDB8fHx8MTc2MzMxODg4NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "payout link",
+      "description": "A payout link being shared on a messaging app"
+    },
+    {
+      "id": "stacked-tax",
+      "imageUrl": "https://images.unsplash.com/photo-1762151662378-f40e20901824?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx0YXglMjBmb3JtfGVufDB8fHx8MTc2MzMxODg4NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tax form",
+      "description": "A close-up of a tax form document"
+    },
+    {
+      "id": "stacked-current-account",
+      "imageUrl": "https://images.unsplash.com/photo-1579621970588-a35d0e7ab9b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxiYW5rJTIwYWNjb3VudHxlbnwwfHx8fDE3NjMzMTg4ODV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "bank account",
+      "description": "A bank account statement on a screen"
+    },
+    {
+      "id": "stacked-escrow",
+      "imageUrl": "https://images.unsplash.com/photo-1614605844432-731c32334c49?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxsZWdhbCUyMGRvY3VtZW50fGVufDB8fHx8MTc2MzMwODQ4MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "legal document",
+      "description": "A signed legal document with a pen"
+    },
+    {
+      "id": "stacked-forex",
+      "imageUrl": "https://images.unsplash.com/photo-1612178991541-b48cc8e92a4d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjdXJyZW5jeSUyMGV4Y2hhbmdlfGVufDB8fHx8MTc2MzIxNDAzMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "currency exchange",
+      "description": "Various international currency notes"
+    },
+    {
+      "id": "stacked-accounting",
+      "imageUrl": "https://images.unsplash.com/photo-1668930185267-1f3c19851b5b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhY2NvdW50aW5nJTIwc29mdHdhcmV8ZW58MHx8fHwxNzYzMzE4ODg1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "accounting software",
+      "description": "An accounting software dashboard with charts"
+    },
+    {
+      "id": "stacked-payroll-startups",
+      "imageUrl": "https://images.unsplash.com/photo-1594235045856-a6315f0c4083?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzdGFydHVwJTIwb2ZmaWNlfGVufDB8fHx8MTc2MzIwOTA1MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "startup office",
+      "description": "A modern startup office environment"
+    },
+    {
+      "id": "stacked-payroll-ca",
+      "imageUrl": "https://images.unsplash.com/photo-1713947503588-8ff8196dc4a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhY2NvdW50YW50JTIwd29ya2luZ3xlbnwwfHx8fDE3NjMzMTg4ODV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "accountant working",
+      "description": "An accountant working with a calculator and papers"
+    },
+    {
+      "id": "stacked-payroll-enterprise",
+      "imageUrl": "https://images.unsplash.com/photo-1594007336248-95440e3fde6d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjb3Jwb3JhdGUlMjBidWlsZGluZ3xlbnwwfHx8fDE3NjMyNTAxMDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "corporate building",
+      "description": "A modern corporate office building"
+    },
+    {
+      "id": "stacked-settlements",
+      "imageUrl": "https://picsum.photos/seed/settlements/400/300",
+      "imageHint": "instant transfer",
+      "description": "Illustration of an instant money transfer"
+    },
+    {
+      "id": "stacked-corporate-cards",
+      "imageUrl": "https://images.unsplash.com/photo-1685388180103-9b01db9d8521?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjb3Jwb3JhdGUlMjBjYXJkfGVufDB8fHx8MTc2MzMxODg4NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "corporate card",
+      "description": "A sleek corporate credit card"
+    },
+    {
+      "id": "testimonial-v2-1",
+      "imageUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2MzIxODk3Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman portrait",
+      "description": "Portrait of a smiling woman"
+    },
+    {
+      "id": "testimonial-v2-2",
+      "imageUrl": "https://images.unsplash.com/photo-1583195763986-0231686dcd43?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjMyODUxOTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man portrait",
+      "description": "Portrait of a smiling man"
+    },
+    {
+      "id": "testimonial-v2-3",
+      "imageUrl": "https://images.unsplash.com/photo-1581065178047-8ee15951ede6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx3b21hbiUyMHByb2Zlc3Npb25hbHxlbnwwfHx8fDE3NjMyNTU1ODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman professional",
+      "description": "Portrait of a professional woman"
+    },
+    {
+      "id": "testimonial-v2-4",
+      "imageUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtYW4lMjBwcm9mZXNzaW9uYWx8ZW58MHx8fHwxNzYzMjY5NTE0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man professional",
+      "description": "Portrait of a professional man"
+    },
+    {
+      "id": "testimonial-v2-5",
+      "imageUrl": "https://images.unsplash.com/photo-1719087358997-12957d0859e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8d29tYW4lMjBzbWlsaW5nfGVufDB8fHx8MTc2MzI4ODA2Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman smiling",
+      "description": "Portrait of a smiling woman"
+    },
+    {
+      "id": "testimonial-v2-6",
+      "imageUrl": "https://images.unsplash.com/photo-1633367583895-08545d733dfe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtYW4lMjBzbWlsaW5nfGVufDB8fHx8MTc2MzI2MjI3N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man smiling",
+      "description": "Portrait of a smiling man"
+    },
+    {
+      "id": "testimonial-v2-7",
+      "imageUrl": "https://images.unsplash.com/photo-1696960181433-68ca79ac8149?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx3b21hbiUyMHRoaW5raW5nfGVufDB8fHx8MTc2MzMwNjExNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman thinking",
+      "description": "Portrait of a woman thinking"
+    },
+    {
+      "id": "testimonial-v2-8",
+      "imageUrl": "https://images.unsplash.com/photo-1584598788860-2695a3a6c874?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtYW4lMjB0aGlua2luZ3xlbnwwfHx8fDE3NjMyODg1NjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man thinking",
+      "description": "Portrait of a man thinking"
+    },
+    {
+      "id": "testimonial-v2-9",
+      "imageUrl": "https://images.unsplash.com/photo-1653771925469-d2437f470a62?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwZXJzb24lMjBoYXBweXxlbnwwfHx8fDE3NjMyMzg4NTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person happy",
+      "description": "Portrait of a happy person"
+    }
+  ]
+}
